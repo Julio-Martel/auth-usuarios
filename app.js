@@ -5,7 +5,7 @@ const routes = require('./routes/routes');
 
 app.use(express.json());
 
-app.use('/api', routes);
+app.use('/usuarios', routes);
 
 app.listen(3000,() => {
     console.log('Servidor activo!');
